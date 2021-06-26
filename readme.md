@@ -45,8 +45,8 @@ que nos debería de retornar la siguiente respuesta:
 ]
 ```
 
-![Alt text](./picturesReadme/responseBrowser.png)
-![Alt text](./picturesReadme/responseCommandLine.png)
+![Alt text](./picturesReadme/responseBrowser.PNG)
+![Alt text](./picturesReadme/responseCommandLine.PNG)
 
 ## SGDB
 
