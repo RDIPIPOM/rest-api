@@ -30,7 +30,7 @@ public class App {
         }
 
         server.createContext("/", new RootHandler());
-        server.createContext("/api/v1/todos", new TodosHandler());
+        server.createContext("/todos", new TodosHandler());
         server.setExecutor(Executors.newCachedThreadPool());
         server.start();
     }

@@ -61,8 +61,6 @@ public class TodosHandler implements HttpHandler {
          *
          * Then you can use the connection variable to create statements.
          */
-        System.out.println(exchange);
-
         OutputStream output = exchange.getResponseBody();
         Connection connection = DBConnection.getInstance();
         String sql = "SELECT * FROM todos";
